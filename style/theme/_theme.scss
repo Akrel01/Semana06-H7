@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;600;700&family=Poppins:wght@200;400;600&family=Raleway:wght@200;400;500;700&family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: "montserrat";
+    background-color: #F2F2F2;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+//Section PROFILE
+//container TEXT
+.container__profile__name{
+     h2{
+            font-size: 1.8rem;
+            font-weight: 600;  
+        }
+    &--carrer{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+
+.container__profile__contact{
+    &__email{
+     font-size: 1.3rem;
+     font-weight: 400;
+    }
+    &__phone{
+     font-size: 1.3rem;
+     font-weight: 400;
+    }
+
+    &__text{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+ }
+
+//section EXPERIENCES
+
+.container__experiences{
+    &__title{
+        font-size: 1.5rem;
+        font-weight: 400;
+    }
+    .container__experiences__flex{
+        &__item__date{
+            font-size:0.8rem;
+            font-weight: 400;
+        }
+
+        &__item__job{
+            font-weight: 700;
+        }
+        &__item__text{
+            font-size: 1.1rem;
+        }
+    }
+}
+
+//section HOBBIES
+
+.container__hobbies{
+    &__title{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    &__name{
+        font-size: 1rem;
+    }
+
+    &__descrip{
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+//section SKILL
+
+.container__skill{
+    &__item{
+        &--a{
+            font-size:1.3rem;
+            font-weight: 600;
+        }
+    }
+
+    &__item{
+        background-color: #fff;
+    }
+}
+
+//section PROJECT
+
+.container__projects{
+
+    .title{
+        background-color: #fff;
+        font-size: 1.1rem;
+        font-weight: 400;
+    }
+
+    &__item{
+        background-color: #fff;
+
+        &__text{
+            .hashtag{
+                font-size: 1rem;
+                font-weight: 400;
+                color: rgb(99, 99, 99);
+            }
+
+            &--title{
+                font-size: 2.3rem;
+                font-weight: 500;
+            }
+    
+            &--less{
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: rgb(99, 99, 99);
+            }
+        }
+
+       
+    }
+}
+
+//button
+
+.button{
+    font-family: "montserrat";
+}
+
+.one{
+    background-color: #2F80ED;
+    color: #fff;
+}
+
+.two{
+    background-color: #fff;
+    border: 1px solid #2F80ED;
+    color: #2F80ED;
+}
+
+//section BLOG
+.container__blog{
+    .title{
+        background-color: #fff;
+        font-size: 1.1rem;
+    }
+
+    &__item{
+        background-color: #fff;
+
+        &__text__title{
+            font-size: 1.5rem;
+            font-weight: 500;
+        }
+
+        &__text__parr{
+            font-size: 1rem;
+            color:rgb(99, 99, 99) ;
+        }
+
+        a{
+            color: #2F80ED;
+        }
+    }
+
+
+}

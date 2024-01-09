@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Fraunces:opsz,wght@9..144,700&family=Inter:wght@400;700&family=Kumbh+Sans:wght@400;700&family=Lexend+Deca&family=Montserrat:wght@500;600;700&family=Poppins:wght@200;400;600&family=Raleway:wght@200;400;500;700&family=Roboto:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+}
+
+.container__experiences__flex__item img {
+  width: 84px;
+  height: 84px;
+}
+
+progress {
+  display: block;
+}
+
+body {
+  margin: 0 auto;
+}
+
+main {
+  padding: 2rem 0 0 1.5rem;
+  width: 1440px;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.container__profile {
+  width: 413px;
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 2rem;
+}
+.container__profile__img {
+  background-image: url(/images/profile.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50%;
+  border-radius: 15px;
+}
+.container__profile__text {
+  height: 50%;
+}
+.container__profile__name {
+  margin: 1rem 0;
+}
+.container__profile__name--carrer {
+  margin: 1rem 0;
+}
+.container__profile__contact {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.container__profile__contact__text {
+  padding-right: 2.5rem;
+}
+
+.container__experiences {
+  padding: 1rem;
+  width: 413px;
+}
+.container__experiences__title {
+  margin-bottom: 1rem;
+}
+.container__experiences__flex__item {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  margin: 2.5rem 0;
+}
+.container__experiences__flex__item__date {
+  margin-bottom: 0.6rem;
+}
+.container__experiences__flex__item__job {
+  margin-bottom: 1.5rem;
+}
+
+.container__hobbies {
+  width: 413px;
+  padding: 1rem;
+}
+.container__hobbies__title {
+  margin-bottom: 1.5rem;
+}
+.container__hobbies img {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+.container__hobbies__name {
+  margin-bottom: 1rem;
+}
+.container__hobbies__descrip {
+  margin-bottom: 1.5rem;
+}
+
+.container__skill {
+  display: flex;
+  flex-direction: row;
+  gap: 1.5rem;
+  width: 100%;
+}
+.container__skill__item {
+  width: 100%;
+  border-radius: 15px;
+  padding: 1.3rem 1.3rem 0 1.3rem;
+}
+.container__skill__item p {
+  margin-bottom: 1rem;
+}
+.container__skill__flex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.container__skill__flex progress {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  width: 250px;
+}
+.container__skill__flex--mod--text {
+  margin-bottom: 1rem;
+}
+
+.mod {
+  height: 100%;
+}
+
+.container__projects .title {
+  margin: 2rem 0;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 15px;
+}
+.container__projects__item {
+  display: flex;
+  flex-direction: row;
+  padding: 1.2rem;
+  border-radius: 15px;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  height: 320px;
+}
+.container__projects__item .hashtag {
+  margin-bottom: 1.5rem;
+}
+.container__projects__item__text--title {
+  margin-bottom: 1.5rem;
+}
+.container__projects__item__text--less {
+  margin-bottom: 3.5rem;
+  padding-right: 1rem;
+}
+
+.button {
+  height: 46px;
+  width: 136.269px;
+  border: none;
+  border-radius: 15px;
+}
+
+.one {
+  margin-right: 10px;
+}
+
+.container__blog .title {
+  margin: 2rem 0;
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 15px;
+}
+.container__blog__item {
+  padding: 1rem 0 1rem 1rem;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.container__blog__item__text {
+  padding-right: 5rem;
+}
+.container__blog__item__text__title {
+  margin: 2rem 0;
+}
+.container__blog__item__text__parr {
+  margin-bottom: 1rem;
+}
+
+@media (width: 768px) {
+  main {
+    width: 100%;
+    padding-left: 0;
+  }
+  main .partone {
+    width: 100%;
+  }
+  main .parttwo {
+    width: 50%;
+  }
+  .container__skill {
+    display: flex;
+    flex-direction: column;
+  }
+  .container__projects {
+    width: 425px;
+  }
+  .container__projects__item {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .container__blog {
+    width: 425px;
+  }
+  .container__blog__item {
+    flex-direction: column-reverse;
+  }
+}
+body {
+  font-family: "montserrat";
+  background-color: #F2F2F2;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.container__profile__name h2 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.container__profile__name--carrer {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.container__profile__contact__email {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.container__profile__contact__phone {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.container__profile__contact__text {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.container__experiences__title {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.container__experiences .container__experiences__flex__item__date {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.container__experiences .container__experiences__flex__item__job {
+  font-weight: 700;
+}
+.container__experiences .container__experiences__flex__item__text {
+  font-size: 1.1rem;
+}
+
+.container__hobbies__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container__hobbies__name {
+  font-size: 1rem;
+}
+.container__hobbies__descrip {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.container__skill__item--a {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.container__skill__item {
+  background-color: #fff;
+}
+
+.container__projects .title {
+  background-color: #fff;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.container__projects__item {
+  background-color: #fff;
+}
+.container__projects__item__text .hashtag {
+  font-size: 1rem;
+  font-weight: 400;
+  color: rgb(99, 99, 99);
+}
+.container__projects__item__text--title {
+  font-size: 2.3rem;
+  font-weight: 500;
+}
+.container__projects__item__text--less {
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: rgb(99, 99, 99);
+}
+
+.button {
+  font-family: "montserrat";
+}
+
+.one {
+  background-color: #2F80ED;
+  color: #fff;
+}
+
+.two {
+  background-color: #fff;
+  border: 1px solid #2F80ED;
+  color: #2F80ED;
+}
+
+.container__blog .title {
+  background-color: #fff;
+  font-size: 1.1rem;
+}
+.container__blog__item {
+  background-color: #fff;
+}
+.container__blog__item__text__title {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.container__blog__item__text__parr {
+  font-size: 1rem;
+  color: rgb(99, 99, 99);
+}
+.container__blog__item a {
+  color: #2F80ED;
+}/*# sourceMappingURL=style.css.map */
